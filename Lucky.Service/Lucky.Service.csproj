@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.16" />
+    <PackageReference Include="sqlSugarCore" Version="4.9.9.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lucky.Core\Lucky.Core.csproj" />
+    <ProjectReference Include="..\Lucky.Domain\Lucky.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

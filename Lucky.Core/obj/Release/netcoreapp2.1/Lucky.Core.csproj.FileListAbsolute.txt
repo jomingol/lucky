@@ -1,0 +1,14 @@
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\bin\Release\netcoreapp2.1\Lucky.Core.deps.json
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\bin\Release\netcoreapp2.1\Lucky.Core.runtimeconfig.json
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\bin\Release\netcoreapp2.1\Lucky.Core.runtimeconfig.dev.json
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\bin\Release\netcoreapp2.1\Lucky.Core.dll
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\bin\Release\netcoreapp2.1\Lucky.Core.pdb
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\bin\Release\netcoreapp2.1\Lucky.Domain.dll
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\bin\Release\netcoreapp2.1\Lucky.Domain.pdb
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\obj\Release\netcoreapp2.1\Lucky.Core.csprojAssemblyReference.cache
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\obj\Release\netcoreapp2.1\Lucky.Core.csproj.CoreCompileInputs.cache
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\obj\Release\netcoreapp2.1\Lucky.Core.AssemblyInfoInputs.cache
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\obj\Release\netcoreapp2.1\Lucky.Core.AssemblyInfo.cs
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\obj\Release\netcoreapp2.1\Lucky.Core.csproj.CopyComplete
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\obj\Release\netcoreapp2.1\Lucky.Core.dll
+E:\CodeSource\Gitlab\lucky_demo\Lucky.Core\obj\Release\netcoreapp2.1\Lucky.Core.pdb

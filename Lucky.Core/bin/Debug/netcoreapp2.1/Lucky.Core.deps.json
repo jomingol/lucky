@@ -1,0 +1,456 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "0dca888933c761ceb26f67f32a310a5140d9e62b"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Lucky.Core/1.0.0": {
+        "dependencies": {
+          "Lucky.Domain": "1.0.0",
+          "Microsoft.NETCore.App": "2.1.0",
+          "sqlSugarCore": "4.9.9.9"
+        },
+        "runtime": {
+          "Lucky.Core.dll": {}
+        }
+      },
+      "BouncyCastle.NetCore/1.8.3": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.18099.1"
+          }
+        }
+      },
+      "Google.Protobuf/3.6.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.6.1.0",
+            "fileVersion": "3.6.1.0"
+          }
+        }
+      },
+      "Microsoft.Data.Sqlite/2.2.1": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "2.2.1",
+          "SQLitePCLRaw.bundle_green": "1.1.11"
+        }
+      },
+      "Microsoft.Data.Sqlite.Core/2.2.1": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.18346"
+          }
+        }
+      },
+      "Microsoft.NETCore.App/2.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostPolicy": "2.1.0",
+          "Microsoft.NETCore.Platforms": "2.1.0",
+          "Microsoft.NETCore.Targets": "2.1.0",
+          "NETStandard.Library": "2.0.3"
+        }
+      },
+      "Microsoft.NETCore.DotNetAppHost/2.1.0": {},
+      "Microsoft.NETCore.DotNetHostPolicy/2.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "2.1.0"
+        }
+      },
+      "Microsoft.NETCore.DotNetHostResolver/2.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "2.1.0"
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.1.0": {},
+      "Microsoft.NETCore.Targets/2.1.0": {},
+      "MySql.Data/8.0.16": {
+        "dependencies": {
+          "BouncyCastle.NetCore": "1.8.3",
+          "Google.Protobuf": "3.6.1",
+          "System.Configuration.ConfigurationManager": "4.4.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/MySql.Data.dll": {
+            "assemblyVersion": "8.0.16.0",
+            "fileVersion": "8.0.16.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.0"
+        }
+      },
+      "Npgsql/3.2.7": {
+        "runtime": {
+          "lib/netstandard2.0/Npgsql.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Oracle.ManagedDataAccess.Core/2.18.3": {
+        "runtime": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {
+            "assemblyVersion": "2.0.18.3",
+            "fileVersion": "2.0.18.3"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.11": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.11",
+          "SQLitePCLRaw.lib.e_sqlite3.linux": "1.1.11",
+          "SQLitePCLRaw.lib.e_sqlite3.osx": "1.1.11",
+          "SQLitePCLRaw.lib.e_sqlite3.v110_xp": "1.1.11",
+          "SQLitePCLRaw.provider.e_sqlite3.netstandard11": "1.1.11"
+        },
+        "runtime": {
+          "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.11": {
+        "runtimeTargets": {
+          "runtimes/alpine-x64/native/libe_sqlite3.so": {
+            "rid": "alpine-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm/native/libe_sqlite3.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libe_sqlite3.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.so": {
+            "rid": "linux-armel",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libe_sqlite3.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.11": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.11": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/e_sqlite3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win8-arm/native/e_sqlite3.dll": {
+            "rid": "win8-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "sqlSugarCore/4.9.9.9": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "2.2.1",
+          "MySql.Data": "8.0.16",
+          "Npgsql": "3.2.7",
+          "Oracle.ManagedDataAccess.Core": "2.18.3",
+          "System.Data.Common": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SqlSugar.dll": {
+            "assemblyVersion": "4.9.9.9",
+            "fileVersion": "4.9.9.9"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.4.1": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25921.2"
+          }
+        }
+      },
+      "System.Data.Common/4.3.0": {},
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "Lucky.Domain/1.0.0": {
+        "dependencies": {
+          "MySql.Data": "8.0.16",
+          "sqlSugarCore": "4.9.9.9"
+        },
+        "runtime": {
+          "Lucky.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lucky.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle.NetCore/1.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-An0cxp/uGPkMWfjAVyHJWBQ9igea74Ma8rtMnpkEwjemx8EoVo7IUIFpFfxpBgVuSbpQueKo2m/CoSxxfLHTtw==",
+      "path": "bouncycastle.netcore/1.8.3",
+      "hashPath": "bouncycastle.netcore.1.8.3.nupkg.sha512"
+    },
+    "Google.Protobuf/3.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D/h9IZl76jjfM5VlPzG235Zdys9RKXNLYbRGm2fa6Y2UshTqAvYBPIydNOvNTEa24DER/m/zvelHlLO9n1GtNQ==",
+      "path": "google.protobuf/3.6.1",
+      "hashPath": "google.protobuf.3.6.1.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SdxM6u55RrLx0MZZEW/cF4KyH47r3tkP/q+q0xkHq/hzjCCSS5p+wLdRwRIHCVCZVqCiZ+2e5ULaLjEX334AuQ==",
+      "path": "microsoft.data.sqlite/2.2.1",
+      "hashPath": "microsoft.data.sqlite.2.2.1.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite.Core/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hvpoyx/mJB5IKlKipG9aEdpYFSicscgTysL0127fdczliTRbRR1u7wAvtbDYOceWo+BD1wj+UZEiz5DsBg8bUw==",
+      "path": "microsoft.data.sqlite.core/2.2.1",
+      "hashPath": "microsoft.data.sqlite.core.2.2.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.App/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
+      "path": "microsoft.netcore.app/2.1.0",
+      "hashPath": "microsoft.netcore.app.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetAppHost/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f/47I60Wg3SrveTvnecCQhCZCAMYlUujWF15EQ/AZTqF/54qeEJjbCIAxKcZI8ToUYzSg6JdfrHggsgjCyCE9Q==",
+      "path": "microsoft.netcore.dotnetapphost/2.1.0",
+      "hashPath": "microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostPolicy/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p50yZYKzhH64lmArJgoKjtvsNehECa+/sAuOQzZh5uDNBTbRKxjN8IXP1e517xdVsgrFcSNxSEVDKZIOWVjGcQ==",
+      "path": "microsoft.netcore.dotnethostpolicy/2.1.0",
+      "hashPath": "microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostResolver/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fS9D8a+y55n6mHMbNqgHXaPGkjmpVH9h97OyrBxsCuo3Z8aQaFMJ5xIfmzji2ntUd/3truhMbSgSfIelHOkQpg==",
+      "path": "microsoft.netcore.dotnethostresolver/2.1.0",
+      "hashPath": "microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "path": "microsoft.netcore.platforms/2.1.0",
+      "hashPath": "microsoft.netcore.platforms.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-etaYwrLZQUS+b3UWTpCnUggd6SQ/ZIkZ5pHnoR7+dIWt/wp2Rv3CvMKOZISsrt7FYCHKwCxfcepuuyEWkQxADg==",
+      "path": "microsoft.netcore.targets/2.1.0",
+      "hashPath": "microsoft.netcore.targets.2.1.0.nupkg.sha512"
+    },
+    "MySql.Data/8.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PQC4+MznUsZoUJq3CJ+NLJ8ilSOYlBjoIxVsLbyu95G93ZarB+8sUQHM5urHM6LxpKtAZ3+SFasTz8VcPjhDmA==",
+      "path": "mysql.data/8.0.16",
+      "hashPath": "mysql.data.8.0.16.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Npgsql/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1KHDjLheDG30kSxrP8BK74RebZ2sLGIGJfcIe/zFqY+algOWOkzk1FN4ujroYifjmzxvE58f1KkZZ+ArvmC9Bg==",
+      "path": "npgsql/3.2.7",
+      "hashPath": "npgsql.3.2.7.nupkg.sha512"
+    },
+    "Oracle.ManagedDataAccess.Core/2.18.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YWpsNnGbLt5CjpfHzt9RUZbp8CPC5AOkeATSY10WICit9TYtkt3cLBP1i7o1b1jHJen6JWwYrxGRG0BTeN9D/Q==",
+      "path": "oracle.manageddataaccess.core/2.18.3",
+      "hashPath": "oracle.manageddataaccess.core.2.18.3.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HOD1/Jg9VZtrOyPUCD9reQOXHq4r+fNe24qw5nghuiUcKch+9jePeRpt6MqGGUFhg2KW89KvE/RFlhpbfF8pKA==",
+      "path": "sqlitepclraw.bundle_green/1.1.11",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bWiOso10I1vDuc5rbzT69LQT0+oXfYnoqx8vKJ8zim/CJ4ytSd20QNTE/FE0dvWEgXGnvDp7gGJFu6PeWnhx9g==",
+      "path": "sqlitepclraw.core/1.1.11",
+      "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x5nuN19UdLgPKcP94lTuVSDTosDGIU3HAMmozd0VoLY5/dCgSl2Ru41Tz44IsAW33ylftboQlnVhahCtVR+3AA==",
+      "path": "sqlitepclraw.lib.e_sqlite3.linux/1.1.11",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.linux.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mjLRS9qb8JnKKHdowd3bSlOnEGSgGuXREBXHU8xecUlMCLoKMj7XEg7EDQeeu89aYGtSegLY95BRHnA9p0+q2g==",
+      "path": "sqlitepclraw.lib.e_sqlite3.osx/1.1.11",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.osx.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JvtHjNrd/est9wJitEiWx1O08XqBm4/l3Lhf01cFf9cIoNxhI+/idcYLMKS4XhewgaSHpuB1/Pi1W6VRjXrmIg==",
+      "path": "sqlitepclraw.lib.e_sqlite3.v110_xp/1.1.11",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.v110_xp.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fvDbTA/2+A3sfLlXYXOHKIFP/ZcL8yQJnr+VxwyCy2BPK2jLZg3XXStc1AokU5uC+dCDl5k3bpCiBdqYU1bz6g==",
+      "path": "sqlitepclraw.provider.e_sqlite3.netstandard11/1.1.11",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.11.nupkg.sha512"
+    },
+    "sqlSugarCore/4.9.9.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XErVgDXDY9Gaxsi6lvloCuYY5oUDB8817OfTg0UhgMfff6yJ9nUoOcZQcM0ek/1D+AiZGq7AZ3zQcNCcU8MmEQ==",
+      "path": "sqlsugarcore/4.9.9.9",
+      "hashPath": "sqlsugarcore.4.9.9.9.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jz3TWKMAeuDEyrPCK5Jyt4bzQcmzUIMcY9Ud6PkElFxTfnsihV+9N/UCqvxe1z5gc7jMYAnj7V1COMS9QKIuHQ==",
+      "path": "system.configuration.configurationmanager/4.4.1",
+      "hashPath": "system.configuration.configurationmanager.4.4.1.nupkg.sha512"
+    },
+    "System.Data.Common/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ==",
+      "path": "system.data.common/4.3.0",
+      "hashPath": "system.data.common.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+    },
+    "Lucky.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
