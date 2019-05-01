@@ -1,9 +1,0 @@
-E:\CodeSource\Gitlab\lucky_demo\Lucky.Domain\bin\Release\netcoreapp2.1\Lucky.Domain.deps.json
-E:\CodeSource\Gitlab\lucky_demo\Lucky.Domain\bin\Release\netcoreapp2.1\Lucky.Domain.dll
-E:\CodeSource\Gitlab\lucky_demo\Lucky.Domain\bin\Release\netcoreapp2.1\Lucky.Domain.pdb
-E:\CodeSource\Gitlab\lucky_demo\Lucky.Domain\obj\Release\netcoreapp2.1\Lucky.Domain.csprojAssemblyReference.cache
-E:\CodeSource\Gitlab\lucky_demo\Lucky.Domain\obj\Release\netcoreapp2.1\Lucky.Domain.csproj.CoreCompileInputs.cache
-E:\CodeSource\Gitlab\lucky_demo\Lucky.Domain\obj\Release\netcoreapp2.1\Lucky.Domain.AssemblyInfoInputs.cache
-E:\CodeSource\Gitlab\lucky_demo\Lucky.Domain\obj\Release\netcoreapp2.1\Lucky.Domain.AssemblyInfo.cs
-E:\CodeSource\Gitlab\lucky_demo\Lucky.Domain\obj\Release\netcoreapp2.1\Lucky.Domain.dll
-E:\CodeSource\Gitlab\lucky_demo\Lucky.Domain\obj\Release\netcoreapp2.1\Lucky.Domain.pdb
